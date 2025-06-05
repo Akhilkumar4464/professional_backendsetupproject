@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "\" a backend  project \"\r # \" hello world\" # this is a comment",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   ],
   "author": "akhil sharma",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
   "bugs": {
     "url": "https://github.com/Akhilkumar4464/professional_backendsetupproject/issues"
   },
