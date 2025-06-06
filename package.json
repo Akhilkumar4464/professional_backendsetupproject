@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "\" a backend  project \"\r # \" hello world\" # this is a comment",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Akhilkumar4464/professional_backendsetupproject/issues"
   },
-  "homepage": "https://github.com/Akhilkumar4464/professional_backendsetupproject#readme"
+  "homepage": "https://github.com/Akhilkumar4464/professional_backendsetupproject#readme",
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
 }
